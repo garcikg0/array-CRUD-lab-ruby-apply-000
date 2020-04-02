@@ -2,10 +2,8 @@ def create_an_empty_array
   []
 end
 
-end
-
-def create_an_array
-
+def create_an_array(friends)
+  friends = [Aidan, Tom, Wes, Mike]
 end
 
 def add_element_to_end_of_array(array, element)
